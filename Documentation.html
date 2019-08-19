@@ -1,0 +1,212 @@
+---
+layout: docs
+title: Documentation Practice
+permalink: /DocumentationPractice/
+---
+
+<div class="container">
+  <h1>Rosetta Stone for CPH</h1>
+
+  <b>Author's Note:</b>
+
+  <p>Please be advised that in no way do I want anyone changing the way they take their notes. Whenever you are 
+  creating your project, just as I do with the documentation, I have a custom way of documenting my findings 
+  before a rought draft. No matter what, you'll have to go over your notes and demonstrations more than once. 
+  Don't worry about your format of the project when presenting me with your notes 
+  (I usually will have to build and test the end result anyway when adding a FAQ section). What I have presented
+   in the documentation is just what would be the ideal end result. If more information is needed I've also 
+   provided a documentation template for the final product <a href="https://github.com/CPHT/Rosetta-Stone/blob/master/RosettaStone/Files/DocumentationTemplate.md">here.</a></p>
+
+  <p>The motto is simple: Leave me a trail, and I will make a path</p>
+
+  <h2><u>Table of Contents</u></h2>
+  <b><a href="#Preamble">Preamble</a></b><br>
+  <b><a href="#Intro">Intro</a></b><br>
+  <b><a href="#TableofContents">Table of Contents</a></b><br>
+  <b><a href="#Summary">Summary</a></b><br>
+  <b><a href="#Sections">Sections</a></b><br>
+  <b><a href="#Prerequisites">Prerequisites</a></b><br>
+  <b><a href="#Steps">Steps</a></b><br>
+  <b><a href="#UsingBulletPoints">Using Bullet Points</a></b><br>
+  <b><a href="#Figures">Figures</a></b><br>
+  <b><a href="#Notes">Notes</a></b><br>
+  <b><a href="#CodeBlocks">Code Blocks</a></b><br>
+  <b><a href="#FAQ">FAQ</a></b><br>
+  <b><a href="#IssueHistory">Issue History</a></b><br>
+  <b><a href="#Endnote">Endnote</a></b><br>
+  
+  <h2><a name="Preamble">Preamble</a></h2>
+
+<p>With software development favoring open to the public, we have a variety of audiences to cater for. Now many of
+  <br>us in computer science can understand the concepts and how software operates after the initial build. However,
+  <br>we must also be inclusive about others who may only have generic technical expertise.</p>
+
+<p>Our documentation will serve two purposes: we want our work to be easy to understand for users of all levels in
+  <br>technology, but also encourage others to step into the field.</p>
+
+<h2><a name="Intro">Introduction</a></h2>
+
+<p>Any project you create should always have an introduction. The introduction doesn't have<br>
+  to be anything long or verbose. As long as you can succiently convey the information for the<br>
+  user to understand, that should solve it.</p>
+
+<h2><a name="TableofContents">Table of Contents</a></h2>
+
+<p>Having a table of contents provides multiple benefits when completed. A user can see just<br>
+  what everything is included in the readme. The user can click on the sections (like the toc I provided above)<br>
+  and can then click back to the previous screen. I included this mainly due to not <br>
+  wanting to scroll through everytime I needed the right information. Usually the skeleton will look like this:</p>
+
+[Go here](#gohere)
+
+<p>And this will include a < div> tag to link the section.</p>
+
+<h2><a name="Summary">Summary</a></h2>
+
+<p>As stated above, include a summary of what your project can do. A summary <br>
+  may also have to be added to sections in case users have questions. The summary <br>
+  can also be included in the introduction if you don't think a closing doesn't needed to be provided.</p>
+
+<h2><a name="Sections">Sections</a></h2>
+
+<p>One argument many generic users experience is that not having sections<br>
+  properly dedicated to certain steps or when switching off to a different <br>
+  program. This is usally in part that we think a user may know what to do intuitively.</p>
+
+<p>When we break up parts into sections, we can be safe to assume the user<br>
+  won't get lost or have to backtrack. This helps create a README that a user<br>
+  can use just like they are reading a book.</p>
+
+<h2><a name="Prerequisites">Prerequisites</a></h2>
+
+
+<p>The prerequisites should always be included before beginning the project <br>
+  gets underway. Theres no point continuing if the right ingredients aren't included.<br>
+  When adding this section, this should be the second section right after the introduction/summary.</p>
+
+<p>In the prerequisites, also make sure you include what operating system is <br>
+  being used for testing (Windows/Mac/Linux) before continuing down the road.</p>
+
+<h2><a name="Steps">Steps</a></h2>
+
+<p>When including steps for following a procedure, keep only one step at a time.<br>
+  Sometimes steps get conglomorated into one step that can throw a user off. For example:</p>
+<ul>
+  <li class="text">Upgrade the software to 3.7.6, Accept all defaults, and then continue.</li>
+</ul>
+
+<p>Though many of us can follow that, its best practice to keep the steps as one at a time.<br>
+  This can also be called one-sentence-at-a-time. Plus depending on the hardware/sorftare, <br>
+  the user may experience something else as "default"</p>
+
+
+<h2><a name="UsingBulletPoints">Using Bullet Points</a></h2>
+
+<p>Bullet points I would only would like to use one source.</p>
+
+<ul>
+  <li>step one</li>
+  <li>step two</li>
+  <li>step three</li>
+</ul>
+
+<p>When we start adding more bullet points underneath, it starts adding pressure<br>
+  to keep moving around on the document instead of giving them a clear starting point.<br>
+  We want the user to either move on to the next bullet point or to continue reading <br>
+  the same bullet point followed by a period.</p>
+
+<p>The bullet points aren't necessarily the main point but keeps the format in line.<br>
+  The user's eyes know where to start on the page by the second bullet point. From there<br>
+  a user will be able to pick up where they left off and can continue with their instructions.</p>
+
+<h2><a name="Figures">Figures</a></h2>
+
+<p>Adding diagrams for users will help deomnstrate a point. This also correleates to if<br>
+  the user gets lost, all they have to do is make sure the correct figure appears on screen.</p>
+
+<h4>When adding a figure</h4>
+<ul>
+  <li>add italics underneath naming the figure with a one line description as example</li>
+</ul>
+<img alt="Google banner" src="{{ "/assets/DocumentationFiles/figureexample.PNG" | prepend: site.baseurl }}" />
+<br>
+<i>Figure 1: Google's Fourth of July Banner</i>
+<ul>
+  <li>(Optional) Add an 'title' tag that can appear when a user hovers over the image.<br>
+    This might go into a longer explanation for the image or where to look at in question.</li>
+</ul>
+
+<img title="Google's banner during 4th of July in 2019."
+  src="{{ "/assets/DocumentationFiles/figureexample.PNG" | prepend: site.baseurl }}" />
+<br>
+<i>Figure 2: Google's Foruth of July Banner updated</i>
+<br><br>
+<b>Note: Adding to the visual representation, a figure placement can also <br>
+  breakup the eye drain users experience looking thorough the documentation.</b>
+
+<h2><a name="Notes">Notes</a></h2>
+
+<p>When adding notes, always keep it in bold but spell note like 'Note' not 'NOTE'.<br>
+  I have found that users will go to that note first before anything else. Add the notes as such:</p>
+
+<b>Note: Read the documentation before asking any questions</b>
+
+<p>In this case, the note isn't pulling the reader away from the documentation but<br>
+  reminds them this is important to read before continuing.</p>
+
+<h2><a name="CodeBlocks">Code Blocks</a></h2>
+
+
+<p>When you include a use for code blocks, I would like code blocks to be used only<br>
+  for code blocksand not to be used consecutively with folders or filepaths.</p>
+
+```
+if this == true:
+print ("You are correct")
+```
+
+<p>When you make a code block, wrap the entire piece with three (3) ``` <br>
+  symbols on top and bottom of the text.</p>
+
+<h2><a name="FAQ">FAQ</a></h2>
+
+<p>Frequently asked questions should be included at the end and be linked <br>
+  into sections we assume users might have difficulty understanding. It doesn't<br>
+  matter how good your software/project is, there will always be curious users.</p>
+
+<b>This didn't work, what should I do?</b>
+<ul>
+  <li>Try something different</li>
+</ul>
+
+<h2><a name="IssueHistory">Issue History</a></h2>
+
+<p>As issues and bugfixes arrive with your software, you will want to add<br>
+  what has changed with each different version that comes out. Formatting for<br>
+  this section may look like this:</p>
+
+<b>July 3, 2019</b>
+
+<p>Discovered a new error in the testing software. It kept kicking out<br>
+  the user instead of logging them in. Made the following corrections.</p>
+
+<ul>
+  <li>Corrected the said bug.</li>
+  <li>Developed a new interface.</li>
+</ul>
+
+<h2><a name="Endnote">Endnote</a></h2>
+
+<p>Most of the time, I will be running through the projects you create so that<br>
+  I can add on and build the project. There will always be more to add even with<br>
+  a perfect documnetation you bring to me. Even this readme I'm creating has gone through 5-6 revisions.</p>
+
+<p>I understand that documentation is boring to many and that others should innately<br>
+  get how to use software (there is a reason why I'm here). I mainly put my case here <br>
+  for when you are developing software somewhere else you can take the lessons you learned<br>
+  here to showcase your software. The goal is to get anyone to use your project, regardless of technical skill.</p>
+</div>
+
+
+<!-- Style -->
+
