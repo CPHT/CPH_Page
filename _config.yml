@@ -1,6 +1,6 @@
 # Site settings
 title: CPH Intern Landing Page
-description: A blog about lorem ipsum dolor sit amet
+description: Getting started at CP Handheld Technologies
 baseurl: "/CPH_Page" # the subpath of your site, e.g. /blog
 url: "https://hdlag91.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
