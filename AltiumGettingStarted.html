@@ -28,7 +28,7 @@ permalink: /AltiumGettingStarted/
 <h2><a name="Summary">Summary</a></h2>
 
 <p>This documentation presents a beginners guide on how to use Altium and its operations. 
-    After reading through this guide, you should have a asic understanding of the important 
+    After reading through this guide, you should have a basic understanding of the important 
     concepts that are used in building PCBs. Please note that this is to help a new user get 
     started understanding and reinforcing the most practical applications of Altium Designer.</p> 
 
@@ -43,7 +43,7 @@ permalink: /AltiumGettingStarted/
 <li>Click "Project" </li>
 </ul>
 
-<p>You should bepresented with a following screen:</p>
+<p>You should be presented with a following screen:</p>
 
 <img alt="Altium" src="{{ "/assets/Altiumimages/AltiumNewProject.PNG" | prepend: site.baseurl }}" />
 <br>
@@ -71,7 +71,7 @@ a new document get added to the project. The default name for your schematic doc
 <i>Figure 3: Blank Schematic page</i>
 
 <p>You will also want to create a new Pcb document. 
-The steps are just the same as mentioned above for creating a schematic execpt for one detail.
+The steps are just the same as mentioned above for creating a schematic except for one detail.
 Instead of selecting "Schematic" pick the "PCB".
 On the "Projects" panel should be a new document added with the pcb extension. The default name 
 will be "PCB1.PcbDoc". </p>
@@ -81,7 +81,7 @@ will be "PCB1.PcbDoc". </p>
 <i>Figure 4: PCB and Schematic document addition</i>
 <br>
 <br>
-<b>Note: The "Soruce Documents" means that the documents added will be located in the directory. Make sure anything you add for your project is located in the "Source Documents" or a new folder will be made called "Free Documents" that are not directly linked to your project.</b>
+<b>Note: The "Source Documents" means that the documents added will be located in the directory. Make sure anything you add for your project is located in the "Source Documents" or a new folder will be made called "Free Documents" that are not directly linked to your project.</b>
 
 <p>The new Pcb document you added should also be displayed on the main screen. What should appear is a black rectangle. </p>
 
@@ -103,8 +103,9 @@ your project. To locate the "Panels" menu,  look at the bottom-right corner of y
 
 <img src="{{ "/assets/Altiumimages/07PanelSelection.PNG" | prepend: site.baseurl }}" />
 <br>
-<i>Figure 7: Panel display. Note that areas with a checkmark are panels you currently have open on your project.</i>
-<p>Most of the time, besides constructing your boards on the 'Projects" panel, you will be editing setting in your "Properties" box depending on components you add. 
+<i>Figure 7: Panel display. Note that areas with a check mark are panels you currently have open on your project.</i>
+<p>Most of the time, besides constructing your boards on the 'Projects" panel, you will be editing setting in
+     your "Properties" box depending on components you add. 
     When you click on a panel section to edit, the box will pop up in the middle of your screen.</p>
 
 
@@ -112,7 +113,8 @@ your project. To locate the "Panels" menu,  look at the bottom-right corner of y
 <br>
 <i>Figure 8: Properties panel on first pop-up.</i>
 
-<p>You can pin the screen you select over on either the left-hand or right-hand side of your screen by clicking on the panel and dragging it to the desired location.</p>
+<p>You can pin the screen you select over on either the left-hand or right-hand side of your screen by 
+    clicking on the panel and dragging it to the desired location.</p>
 
 
 <img src="{{ "/assets/Altiumimages/09Panelpinned.PNG" | prepend: site.baseurl }}" />
@@ -128,7 +130,7 @@ your project. To locate the "Panels" menu,  look at the bottom-right corner of y
 <p>In addition to making new schematic and pcb files, we can also call for libraries that hold the schematics and footprints needed in our board designs. </p>
 <b>Note: we have documentation on how to do this located <a href="https://github.com/CPHT/Altium/tree/master/AltiumDatabaseLibrary">here</a> </b>
 
-<p>If you are wantiing to install other integrated libraries</p>
+<p>If you are wanting to install other integrated libraries</p>
 <ul>
     <li>Click on "Panels".</li>
     <li>Select "Components".</li>
@@ -170,25 +172,29 @@ your project. To locate the "Panels" menu,  look at the bottom-right corner of y
 <img src="{{ "/assets/Altiumimages/11SchematicChoices.PNG" | prepend: site.baseurl }}" />
 <br>
 <i>Figure 13: Prebuilt integrated libraries</i>
-<p>When you click on one of .IntLib choices, you should see a list of already populated components. For example, this is a screen you would see if you chose "Miscellaneous Devices". 
+<p>When you click on one of .IntLib choices, you should see a list of already populated components. 
+    For example, this is a screen you would see if you chose "Miscellaneous Devices". 
     </p>
 
 <img src="{{ "/assets/Altiumimages/12miscdevicesscreen.PNG" | prepend: site.baseurl }}" />
 <br>
 <i>Figure 14: Default components selection regarding devices.</i>
 <br><br>
-<b>Note: If you are wanting to find more parts or looking for a specific component, you can choose "Manufacturer Part Search".</b>
+<b>Note: If you are wanting to find more parts or looking for a specific component, you can choose 
+    "Manufacturer Part Search".</b>
 <p>Now you can select the component you are looking for and can drag the device over to your schematic. You can 
     also see what the device looks like in the preview and in 3D in the "Models" pane located in "Components"</p>
 <img src="{{ "/assets/Altiumimages/13ModelShematic.PNG" | prepend: site.baseurl }}" />
 <br>
 <i>Figure 15: Schematic placement and preview</i>
 <br><br>
-<b>Note: An important piece to remember is regarding net labels and port connections. Net label connections only exist on the schematic shee they are on, not inbetween multiple schematic sheets.
+<b>Note: An important piece to remember is regarding net labels and port connections. 
+    Net label connections only exist on the schematic sheet they are on, not in-between multiple schematic sheets.
 Ports provide connections in between schematic sheets and no on the schematic sheet they are on.</b>
 
 <h2><a name="CompileDesign">Compile Design</a></h2>
-<p>When you finish designing your schematics you will want to compile. Ideally, everything will complie with zero errors being issued. But with designing anything in preliminary stages, 
+<p>When you finish designing your schematics you will want to compile. Ideally, everything will compile with 
+    zero errors being issued. But with designing anything in preliminary stages, 
     you will often find errors and warnings when you first compile the design.</p>
 
 
@@ -289,9 +295,9 @@ than necessary since validation should succeed.</p>
 depending on your schematic sheets included.</p>
 
 <h2><a name="PCBrules">PCB Rules</a></h2>
-<p>PCB settings also have there own set of rules that must be adheared to when moving on to the PCB design. 
+<p>PCB settings also have there own set of rules that must be adhered to when moving on to the PCB design. 
    Before you begin, its recommended to set your rules prior before building the circuit board as you see fit.
-    Designing before modifying or correcting the ruleset can lead down to furhter complications on your project.</p>
+    Designing before modifying or correcting the rule set can lead down to further complications on your project.</p>
 <h3>To View the PCB rules</h3>
 <ul>
     <li>Select your PCB document</li>
@@ -301,7 +307,7 @@ depending on your schematic sheets included.</p>
 
 <p>This will open you up to a new screen called the 
     "PCB Rules and Constraints Editor". Here you can 
-    enforce or diable rules as you see fit.</p>
+    enforce or disable rules as you see fit.</p>
 
 <img src="{{ "/assets/Altiumimages/20RulesandconstraintsPCB.PNG" | prepend: site.baseurl }}" />
 <br>
@@ -333,7 +339,7 @@ If you need to add a new rule that isn't covered by the default option, you can 
 
 <img src="{{ "/assets/Altiumimages/22selectedquieries.PNG" | prepend: site.baseurl }}" />
 <br>
-<i>Figure 24: Object quieries page</i>
+<i>Figure 24: Object queries page</i>
 <p>You can set the scope for the query selection and keeping the constraints mode in check. 
 For example, if you had a high voltage net you want to use a net class option instead of
 using "All - All" If you change the scope, you may also need to change the Priorities 
@@ -357,7 +363,7 @@ section as well. Click the "Priorities" button below to see the values.</p>
     <li>Left-to-Right</li>
 </ul>
 <p>If you are creating a rectangle moving right-to-left, it will select every component it touches. 
-    This is true if the wire connected to a component outside the rectanle is connected. As long as the
+    This is true if the wire connected to a component outside the rectangle is connected. As long as the
      wire is caught in the rectangle, that attached component will be highlighted. 
     Using the left-to-right option will only select everything that rectangle contains. What this means 
     is if you only highlight part of a component, it won't get picked up in the selection. 
@@ -391,7 +397,7 @@ section as well. Click the "Priorities" button below to see the values.</p>
 <ul>
     <li>Click on area to begin.</li>
     <li>Move to desired location and left-click to
-            create a vertice.</li>
+            create a vertex or vertices.</li>
     <li>Press "+" to create a link in the next layer. </li>
 </ul>
 <p>At this point you will want to start doing a polygon pour.
@@ -412,7 +418,7 @@ section as well. Click the "Priorities" button below to see the values.</p>
          <li>Select "Design Rule Check".</li>
          <li>Choose "Run Design Rule Check".</li>
      </ul>
-<p>This will generate a new report called a "Design Rule Verificaiton Report". The report will show rule 
+<p>This will generate a new report called a "Design Rule Verification Report". The report will show rule 
     violations 
     and a more in-depth report about the errors. You messages panel will also display the errors as well. </p>
 
@@ -424,7 +430,7 @@ section as well. Click the "Priorities" button below to see the values.</p>
     Double clicking the error messages will take you to the screen and allow you to fix the mistake.</p>
 
 <h2><a name="Fabrication">Fabrication</a></h2>
-<p>The last step before moivng into production is to generate the fabrication files.</p>
+<p>The last step before moving into production is to generate the fabrication files.</p>
 <ul>
     <li>Go to "File".</li>
     <li>Select "Fabrication Outputs".</li>
@@ -434,7 +440,7 @@ section as well. Click the "Priorities" button below to see the values.</p>
 <b>Note: Gerber files is considered the industry standard.
      Unless noted otherwise, you fabrication output will usually be using Gerber files.</b>
 <p>You will get a screen called the gerber Setup that will go over the layers and 
-    how you want your driling to proceed.</p>
+    how you want your drilling to proceed.</p>
 
 <img src="{{ "/assets/Altiumextra/04.PNG" | prepend: site.baseurl }}" />
 <br>
@@ -465,7 +471,6 @@ The other option you will select for the end is the pick and place files. </p>
     <li>Are all pins hooked up correctly on all IC's.</li>
     <li>All grounds are routed.</li>
     <li>If a net label GND is being used is it tied to a ground iuobject somewhere.</li>
-    <li>If a net label GND is being used is it tied to a ground iuobject somewhere.</li>
     <li>Cloned resistors and capacitors have correct values.</li>
     <li>Cloned resistors and capacitors have correct Digikey part numbers.</li>
     <li>Cloned resistors and capacitors have correct footprints.</li>
@@ -480,12 +485,12 @@ The other option you will select for the end is the pick and place files. </p>
 <ul>
     <li>Import Changes from PCB Project.</li>
     <li>Apply Design Rules (OSH Park) for hole size.</li>
-    <li>Apply Design Rules (OSH Park) for Minumum Annular Ring.</li>
+    <li>Apply Design Rules (OSH Park) for Minimum Annular Ring.</li>
     <li>Apply Design Rules (OSH Park) for trace width.</li>
     <li>Layer Stackup all layers visible.</li>
     <li>No island polygons on PCB.</li>
     <li>Ground pins of components aren't floating</li>
-    <li>Polygons with high voltage differences have adequete distance from each other.</li>
+    <li>Polygons with high voltage differences have adequate distance from each other.</li>
     <li>USB lines are placed with differential routing tool.</li>
     <li>All strings are 30mil text height.</li>
     <li>All traces are 10mil w/ exception of differential usb lines.</li>
