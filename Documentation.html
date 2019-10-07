@@ -66,14 +66,23 @@ another for generic users.</p>
 
 <h2><a name="TableofContents">Table of Contents</a></h2>
 
-<p>Having a table of contents provides multiple benefits when completed. A user can see just<br>
-  what everything is included in the readme. The user can click on the sections (like the toc I provided above)<br>
-  and can then click back to the previous screen. I included this mainly due to not <br>
-  wanting to scroll through the documentation when I just need a specific section. Usually the skeleton will look like this:</p>
+<p>Having a table of contents provides multiple benefits when completed. In normal instances, a user would have to
+  rely on scrolling through the documentation with only a summary for any closure. With a table of contents, A user can see just<br>
+  what everything is included in the readme, making the transition easier in case they only need to understand certain steps. 
+  The table of content also provides quick links the user can click on. This saves anyone viewing your documentation from scrolling 
+  endlessly. Usually the skeleton will look like this when you type it in to Markdown:</p>
 
 [Go here](#gohere)
+[Then here](#thenhere)
 
-<p>And this will include a < div >  tag to link the section.</p>
+<p>[text]: This will display the name of the section and make a clickable link.<br>
+   (#texthere): This will act as a pointer for where your section is located. If you put this above
+  your header of a section, a user can click on this to jump to that section</p>
+
+<p>And this will include a < div >  tag to link the section. The section for "(texthere)" would be 
+referred as an example:</p>
+
+< div id='texthere'/ >
 
 <h2><a name="Summary">Summary</a></h2>
 
