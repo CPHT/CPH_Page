@@ -85,8 +85,45 @@ permalink: /Jekyll/
     sure you see a screen like the following below:
 </p>
 <img alt="Ruby and Gem Versions" src="{{ "/assets/JekyllImages/rubygemcheck.PNG" | prepend: site.baseurl }}" />
-
-
+<p>The next step will involve installing the Jekyll bundler package. The reason you want to install
+    Jekyll with bundler is it helps track dependencies on projects.
 </p>
+<ul>
+    <li>Type the following command into your prompt: gem install jekyll bundler</li>
+    <li>You should get a confirmation after the command:</li>
+</ul>
+<img alt="Installation successful" src="{{ "/assets/JekyllImages/jekyllinstallsuccess.PNG" | prepend: site.baseurl }}" />
+<ul>
+    <li>Check the version of jekyll by typing the following: jekyll -v</li>
+</ul>
+<img alt="Jekyll version" src="{{ "/assets/JekyllImages/rdiskinstall.PNG" | prepend: site.baseurl }}" />
+
+<h3>Site Creation</h3>
+
+<p>Once you have everything in the previous sections installed and working correctly,
+    you can now go ahead and create your default site. When you have jekyll running, you'll
+    be able to see how your website appears before hosting the website on an actual server.
+</p>
+<p>For creating a new site:</p>
+<ul>
+    <li>Open either your Terminal/Command Prompt/GitBash</li>
+    <li>Type the following command "cd" to navigate where you would like to store
+        your website files. 
+    </li>
+    <li>Once you have your location determined, type the following command: "Jekyll new site". The 
+        "site" can be named to whatever you prefer.
+    </li>
+    <li>The command will execute and install all your default files, you should see something resembling the following
+        figure below:
+    </li>
+</ul>
+<img alt="Jekyll new site creation" src="{{ "/assets/JekyllImages/jekyllnewsite.PNG" | prepend: site.baseurl }}" />
+
+<p>After running through the previous steps above, a folder will appear where you selected your site to be. You can also
+    view the file path of where the folder appears at the bottom of your terminal. The default options include files such
+    as config.yml and index.md. A sample snapshot for what you should see is provided. 
+</p>
+
+<img alt="Jekyll version" src="{{ "/assets/JekyllImages/jekyllcontentsfolder.PNG" | prepend: site.baseurl }}" />
 
 </div>
