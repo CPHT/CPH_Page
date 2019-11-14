@@ -196,4 +196,29 @@ permalink: /Jekyll/
         </p>
         <p>If by chance you are wanting to use different thems you can go to <a href="https://rubygems.org/">RubyGems</a> or <a href="http://jekyllthemes.org/">Jekyll Themes</a> for other 
         pre-determined themes. Most of the themes will start with something similar to <b>jekyll-theme-xxxx</b>.</p>
+
+        <h3>To Install a Theme</h3>
+        <p>There are two ways you can install a jekyll theme</p>
+        <ul>
+            <li>Grab the theme name from the repository you searched for from RubyGems or Jekyll.</li>
+            <li>Go to your preferred source code editor.</li>
+            <li>Open the file "Gemfile".</li>
+            <li>Add the theme plugin of your choice to your website. It should look like the following:</li>
+        </ul>
+        
+        <img alt="Jekyll new gem" src="{{ "/assets/JekyllImages/gemhanuman.PNG" | prepend: site.baseurl }}" />
+        <p>Another way you can install a theme name is typing in the command of your repository:</p>
+        <p>"gem install theme-name"</p>
+        <p><b>Note: At this point, you will have to shutdown and restart the server for your website due to changing the configuration. </b></p>
+        <h3>After configuring the gem file</h3>
+        <ul>
+            <li>Return to the "config.yml" file</li>
+            <li>change the theme name to the one of your choice.</li>
+        </ul>
+        <p><b>Note; You may also have to alter the layouts you have. Errors will occur is you do not have matching layouts.</b></p>
+
+        <h1>Changing Front Matter</h1>
+
+
+
 </div> 
