@@ -244,13 +244,40 @@ permalink: /Jekyll/
             not familiar with either language, the links provided will lead you to documentation on how to get started.</p>
             <p>Any page you create will have to include some type of front matter. For example, the <b>minima</b> theme holds two different layouts 
             when first implemented: <b>page</b> and <b>post</b>. Other themes or custom layouts may only have an option labeled <b>default</b>. Depending on either a chosen theme 
-        or a custom theme you will have to test the layout. Each one will take some tweaking before implementing. However, in most cases front 
-    matter will have at least the following:</p>
-    <ul>
-        <li>layout:</li>
-        <li>title:</li>
-        <li>permalink:</li>
-    </ul>
+            or a custom theme you will have to test the layout. Each one will take some tweaking before implementing. However, in most cases front 
+            matter will have at least the following:</p>
+            <ul>
+                <li>layout:</li>
+                <li>title:</li>
+                <li>permalink:</li>
+            </ul>
+        <h1>Posts</h1>
+        <b>Note: This section is only needed if you intend to keep your website as a blog. You can skip this section if your website
+            will be used for a different purpose.
+        </b>
+        <p>Anytime you are wanting to create a blog post with Jekyll content, you will want to store it in <b>_posts</b>. Creating 
+        blog posts have certain rules that you must adhere.</p>
+        <h3>To create a blog post</h3>
+        <ul>
+            <li>Insert a new file into <b>_posts</b>.</li>
+            <li>When creating the file, the name must begin with a date. The date will always following the format YYYY-MM-DD-title-of-post.</li>
+            <li>Give the extension name to be either <b>md</b> for markdown or <b>html</b> for an html document.</li>
+        </ul>
+        <p>You can also define the layout, nut using the <b>post</b> layout will look the best for a blog post in this tutorial.</p>
+        <b>Note: If you are putting in a title for the post, make sure it contains quotes "" wrapped around it. Otherwise, you will receive mapping value errors:</b>
+
+        <img alt="Jekyll title error message" src="{{ "/assets/JekyllImages/jekyllerrortitle.PNG" | prepend: site.baseurl }}" />
+
+        <h3>For drafts</h3>
+        <ul><li>Create a new folder called <b>_drafts</b>.</li>
+            <li>Make a new draft for the blog post, but do not give the draft a date.</li>
+            <li>When you are ready to publish the post, update it accordingly with the title that you choose. An example of how to format the 
+                draft before publishing and the folder is provided below.
+            </li>
+        </ul>
+
+        <h1>Pages</h1>
+        
 
 
 
