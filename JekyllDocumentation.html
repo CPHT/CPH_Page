@@ -277,7 +277,67 @@ permalink: /Jekyll/
         </ul>
 
         <h1>Pages</h1>
-        
+        <p>When designing how you want your webpages to display, you can choose to use either markdown or html. Pages tend to have more 
+            room for style when presenting information.</p>
+            <h3>When designing a page</h3>
+            <ul>
+                <li>Rename the file extension for either markdown or html.</li>
+                <li>Set the front matter of your page to the name of the layout. In this tutorial, the layout name is <b>page</b> but in 
+                other cases especially with custom themes it could be called <b>default</b>.</li>
+            </ul>
+            <p>For example, you could edit the <b>about</b> page to include a short bio about yourself.</p>
+            <h3>To edit the about.md page</h3>
+            <ul>
+                <li>Select the <b>about.md</b> file.</li>
+                <li>If you desire, keep its original extension or change it to <b>html</b>.</li>
+            </ul>
+            <p>When you navigate to the about page, there is already text included. It should look something like this:</p>
+
+            <img alt="Jekyll default about section" src="{{ "/assets/JekyllImages/jekyllabout.PNG" | prepend: site.baseurl }}" />
+
+            <ul>
+                <li>Clear all the information except for the front matter.</li>
+                <li>Write out a short bio for yourself. I have provided one below.</li>
+            </ul>
+
+            <img alt="Jekyll revised about section" src="{{ "/assets/JekyllImages/jekyllnewabout.PNG" | prepend: site.baseurl }}" />
+            <ul>Save your results and refresh your website. If you confirmed your changes, you should see the new about section 
+                appear.
+            </ul>
+            <img alt="Jekyll about page live" src="{{ "/assets/JekyllImages/aboutupdated.PNG" | prepend: site.baseurl }}" />
+            <p>As learning increases, you will want to add more pages to your site. In the example above, an html tag is at the end of the 
+                paragraph. let's say you want to create a new page.
+            </p>
+            <h3>Example: building a new page</h3>
+            <ul>
+                <li>Male a new file in your source code editor. This can be placed anywhere, but for easier navigation, you can 
+                    just keep the page as an outside file like the <b>about.md</b>.
+                </li>
+                <li>Choose the extension you would like to give the file.</li>
+                <li>Name your file. What title you give the file will appear on the new tab unless you make a title on the front matter.</li>
+            </ul>
+            <p><b>Note: give your page a permalink variable like how the about page has with any path you wish.</b></p>
+            <ul>
+                <li>Fill in the information your would like to have for the page.</li>
+            </ul>
+            <img alt="Jekyll philosophy message" src="{{ "/assets/JekyllImages/jekyllphilo.PNG" | prepend: site.baseurl }}" />
+
+            <p>The example also includes a link to the <b>about</b> page linking to the <b>/philo</b> page permalink.</p>
+
+            <img alt="Jekyll simple link" src="{{ "/assets/JekyllImages/jekyllphilolink.PNG" | prepend: site.baseurl }}" />
+
+            <p>When refreshing the page, both of the pages should update and anyone can naviagte form the <b>about</b> page 
+            straight to the <b>philo</b> page.</p>
+
+            <img alt="Jekyll page link" src="{{ "/assets/JekyllImages/jekyllpagelink.PNG" | prepend: site.baseurl }}" />
+
+            <p>Which in turn leads to this page:</p>
+
+            <img alt="Jekyll new message for the philosophical page" src="{{ "/assets/JekyllImages/jekyllnewphilo.PNG" | prepend: site.baseurl }}" />
+
+            <h1>Changing _config.yml file</h1>
+
+
 
 
 
