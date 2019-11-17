@@ -224,6 +224,34 @@ permalink: /Jekyll/
          the variables.
         </p>
 
+        <h3>To view the front matter</h3>
+        <ul>
+            <li>Open your Jekyll site folder in the source editor of your choice. In the example provided, Visual 
+                Studio Code is being used.
+            </li>
+        </ul>
+            <p>When editing a page, you should see somehting on any webpage that includes the following:</p>
+
+            <img alt="Jekyll front matter" src="{{ "/assets/JekyllImages/jekyllfrontmatter.PNG" | prepend: site.baseurl }}" />
+            <p>The figure above holds four common variables for the front matter.</p>
+            <ul>
+                <li><b>layout</b>: What the page matter or skeleton will be</li>
+                <li><b>title</b>: This is what will be displayed on the tab</li>
+                <li><b>date</b>: Specifically for posts, but what is the date displayed at the time of creation.</li>
+                <li><b>categories</b>: Where the static file is stored at and the file path</li>
+            </ul>
+            <p>The front matter is written in <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a> and <a href="https://www.json.org">JSON</a> syntax. If you are 
+            not familiar with either language, the links provided will lead you to documentation on how to get started.</p>
+            <p>Any page you create will have to include some type of front matter. For example, the <b>minima</b> theme holds two different layouts 
+            when first implemented: <b>page</b> and <b>post</b>. Other themes or custom layouts may only have an option labeled <b>default</b>. Depending on either a chosen theme 
+        or a custom theme you will have to test the layout. Each one will take some tweaking before implementing. However, in most cases front 
+    matter will have at least the following:</p>
+    <ul>
+        <li>layout:</li>
+        <li>title:</li>
+        <li>permalink:</li>
+    </ul>
+
 
 
 </div> 
